@@ -1,0 +1,7 @@
+/dist
+/bin
+*.swp
+.dapper
+.dapper.exe
+/.idea
+/.vagrant
