@@ -1,4 +1,4 @@
-module github.com/boy12371/dapper
+module github.com/rancher/dapper
 
 go 1.14
 

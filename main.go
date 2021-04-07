@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/boy12371/dapper/file"
+	"github.com/rancher/dapper/file"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )
 
 var (
-	VERSION = "0.5.4"
+	VERSION = "0.0.0"
 )
 
 func main() {

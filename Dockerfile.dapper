@@ -21,7 +21,7 @@ RUN apt-get update && \
     apt-get install -y docker-ce bash git jq
 
 ENV DOCKER_CLI_EXPERMENTAL enabled
-ENV DAPPER_SOURCE /go/src/github.com/boy12371/dapper
+ENV DAPPER_SOURCE /go/src/github.com/rancher/dapper
 ENV DAPPER_OUTPUT ./bin ./dist
 ENV DAPPER_DOCKER_SOCKET true
 ENV TRASH_CACHE ${DAPPER_SOURCE}/.trash-cache
