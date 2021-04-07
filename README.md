@@ -22,8 +22,8 @@ Dapper is built using dapper so the following is a decent example
 ```sh
 go get github.com/boy12371/dapper
 git clone https://github.com/boy12371/dapper.git
-git tag v0.5.4
 cd dapper
+git tag v0.5.4
 dapper
 ```
 
