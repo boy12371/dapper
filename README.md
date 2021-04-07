@@ -5,7 +5,7 @@ Dapper is a tool to wrap any existing build tool in an consistent environment.  
 ## Installation
 
 ```sh
-curl -sL https://github.com/rancher/dapper/releases/download/v0.5.4/dapper-$(uname -s)-$(uname -m) > /usr/local/bin/dapper
+curl -sL https://github.com/boy12371/dapper/releases/download/v0.5.4/dapper-$(uname -s)-$(uname -m) > /usr/local/bin/dapper
 chmod +x /usr/local/bin/dapper
 ```
 
@@ -22,6 +22,7 @@ Dapper is built using dapper so the following is a decent example
 ```sh
 go get github.com/boy12371/dapper
 git clone https://github.com/boy12371/dapper.git
+git tag v0.5.4
 cd dapper
 dapper
 ```
